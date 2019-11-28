@@ -1,0 +1,45 @@
+body,html{
+	height: 100%;
+}
+
+#container{
+	border: 1px solid #000;
+	height: 100%;
+	display: grid;
+	grid-template-rows: minmax(min-content,20%) minmax(min-content,7%) auto 15%;
+	grid-row-gap: 1%;
+}
+
+#header{
+	border: 1px solid #000;
+}
+
+#main{
+	border: 1px solid #000;
+	grid-template-columns: 20% auto 20%;
+	grid-column-gap: 1%;
+}
+
+#main #content{
+	border: 1px solid #000;
+}
+
+#footer{
+	border: 1px solid #000;
+}
+
+#menu{
+	border: 1px solid #000;
+}
+
+#menu ul{
+	display: flex;
+	list-style: none;
+	padding: 0px;
+}
+
+#menu ul li{
+	border: 1px solid #000;
+	margin: 3px;
+	padding: 5px;
+}
